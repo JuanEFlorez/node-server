@@ -128,10 +128,10 @@ const main = async () => {
 // });
 
 // Usando el método then()
-main()
-  .then(() => {
-    console.log("Programa finalizado exitosamente.");
-  })
-  .catch((error) => {
-    console.log("Ocurrió un error en el programa:", error);
-  });
+// main()
+//   .then(() => {
+//     console.log("Programa finalizado exitosamente.");
+//   })
+//   .catch((error) => {
+//     console.log("Ocurrió un error en el programa:", error);
+//   });
