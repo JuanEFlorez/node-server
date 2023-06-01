@@ -35,6 +35,15 @@ const server = http.createServer((req, res) => {
   }
 });
 
+node-promises
+// Usando el método then()
+// main()
+//   .then(() => {
+//     console.log("Programa finalizado exitosamente.");
+//   })
+//   .catch((error) => {
+//     console.log("Ocurrió un error en el programa:", error);
+//   });
 server.listen(port, host, () => {
   console.log("Servidor funcionando en: ", host, port);
 });
